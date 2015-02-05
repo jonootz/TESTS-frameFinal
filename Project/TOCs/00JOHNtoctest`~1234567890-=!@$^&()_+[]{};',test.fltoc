@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Topic Title"
+    Link="/Content/Topic.htm" />
+  <TocEntry
+    Title="Target Editor: General Tab"
+    Link="/Content/Output Frame - UI.htm">
+    <TocEntry
+      Title="Output Frame - Command Line"
+      Link="/Content/Output Frame - Command Line.htm" />
+  </TocEntry>
+</CatapultToc>

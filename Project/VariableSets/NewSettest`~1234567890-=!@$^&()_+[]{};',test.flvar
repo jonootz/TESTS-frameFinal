@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment="Ar"
+    Name="A_Regular">A_Regular definition</Variable>
+  <Variable
+    Comment="Br"
+    Name="B_Regular">B_Regular definition</Variable>
+  <Variable
+    Name="C_Regular"
+    Comment="Cr">C_Regular definition</Variable>
+  <Variable
+    Name="1_Regular"
+    Comment="1r">1_Regular definition</Variable>
+  <Variable
+    Name="3_Regular"
+    Comment="3r">3_Regular definition</Variable>
+  <Variable
+    Name="2_Regular"
+    Comment="2r">2_Regular definition</Variable>
+  <Variable
+    Name="1DateTime"
+    Comment="1dt"
+    Type="DateTime">"1DateTime" hh:mm tt</Variable>
+  <Variable
+    Name="CDateTime"
+    Comment="Cdt"
+    Type="DateTime">"CDateTime" hh:mm tt</Variable>
+  <Variable
+    Name="2DateTime"
+    Comment="2dt"
+    Type="DateTime">"2DateTime" hh:mm tt</Variable>
+  <Variable
+    Name="3DateTime"
+    Comment="3dt"
+    Type="DateTime">"3DateTime" hh:mm tt</Variable>
+  <Variable
+    Name="ADateTime"
+    Comment="Adt"
+    Type="DateTime">"ADateTime" hh:mm tt</Variable>
+  <Variable
+    Name="BDateTime"
+    Comment="Bdt"
+    Type="DateTime">"BDateTime" hh:mm tt</Variable>
+  <Variable
+    Name="2_Regular"
+    Comment="2r-1">2_Regular definition-child1</Variable>
+  <Variable
+    Name="2_Regular"
+    Comment="2r-2">2_Regular definition child 2</Variable>
+  <Variable
+    Name="2DateTime"
+    Comment="2dt-1"
+    Type="DateTime">"2DateTime" hh:mm tt "child1"</Variable>
+  <Variable
+    Name="2DateTime"
+    Comment="2dt-2"
+    Type="DateTime">"2DateTime" hh:mm tt "child2"</Variable>
+  <Variable
+    Name="BDateTime"
+    Comment="Bdt-1"
+    Type="DateTime">"BDateTime" hh:mm tt "child1"</Variable>
+  <Variable
+    Name="BDateTime"
+    Comment="Bdt-2"
+    Type="DateTime">"BDateTime" hh:mm tt "child2"</Variable>
+  <Variable
+    Name="B_Regular"
+    Comment="Br-1">B_Regular definition-child1</Variable>
+  <Variable
+    Name="B_Regular"
+    Comment="Br-2">B_Regular definition-child2</Variable>
+</CatapultVariableSet>

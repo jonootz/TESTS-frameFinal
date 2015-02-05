@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2979" MadCap:lastWidth="828">
+    <head>
+    </head>
+    <body>
+        <table>
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <p>
+                            <img src="Resources/Images/Commandline--Run_1129766543_3465267694.png" />
+                        </p>
+                    </td>
+                    <td>
+                        <h1>Output Frame - Command Line</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>
+                        <h2>Accessing and using the Command Prompt</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Step 1: Open the 32-bit command prompt</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Windows Key + R</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>!Start | Programs | Accessories | Command Prompt</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Type: CMD</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Note: Typing Command instead will open the 16-bit command prompt. You don’t want that, unless you like pain.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Step 2: Navigate to the Flare.app folder</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Assuming you installed to the default location</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Type: cd “c:\program files\madcap software\madcap Flare V10\Flare.app” for 32-bit or cd “c:\program files (x86)\madcap software\madcap Flare V10\Flare.app” for 64-bit</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>
+                        <h2>Sample Usage and Test Cases</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>The examples below will be referencing a Flare project named “Compile Project” and is located at “C:\documents and settings\jwulkowicz\my documents\compile project\compile project.flprj”</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Type: madbuild –project “c:\documents and settings\jwulkowicz\my documents\compile project\compile project.flprj” -target mywebhelp</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Basic Syntax:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>madbuild –project &lt;project or movie&gt; -target &lt;target name&gt;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>–project: This flag is required. Following this flag, should be the path to the Flare project to compile</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>–target: This flag is optional. If the flag is not used, all outputs will be compiled. If this flag is used, the name of the target that is specified will be compiled.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Other Flags:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>–batch: builds the batch target (ex. madbuild –project &lt;project or movie&gt; -batch &lt;batch name&gt;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>–log: generates a log of the compile</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Note that if there are spaces in &lt;project or movie&gt; or &lt;target name&gt;, use quotation marks around them.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Test Cases</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Hit enter, and the project will compile all targets in the project</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify the project was compiled by locating the output folder in the project folder.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify all targets where compiled</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Using just the –project flag, all targets in the project will compile. (Referred to as Batch Compile)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Compare the output is the exact same as a compiled output from Flare. (Use a Diff program, or just compare size on disk)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>-target</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>The –target flag is optional. When using the –target flag follow with the name of the Target in your project that you want to compile.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Example using a target called “MyWebHelp”:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Type madbuild –project “c:\documents and settings\jwulkowicz\my documents\compile project\compile project.flprj” -target mywebhelp</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>You don't need to specify the file extension of a target name.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Test Cases</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Hit enter, and the project will compile the target selected</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify the project was compiled by locating the output folder in the project folder.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify only the selected target was compiled</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Compare the output is the exact same as a compiled output from Flare. (Use a Diff program, or just compare size on disk)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Misc Test Cases</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>For Frame output: Verify if Framemaker is not installed, an appropriate error is given in the command line. Currently we stop compilation when this error is given.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Note you have to launch Flare at least once after installing Frame. Or Frame compile will hang on saving the Book.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>For Word output: Verify if Word is not installed, an appropriate error is given in the command line. Currently we stop compilation when this error is given.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify previous output in the output folder is removed when the command line compiles the new output</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify if Flare is in Trial mode you can command line compile</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify if Flare has expired its trial mode you can NOT command line compile</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify if Flare is licensed and not Registered that Command line compile is allowed</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Test Command Line Compile on a project that is in source control</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify vector graphics and equations are outputted correctly</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify accessibility warning are displayed in command line compile</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Use various settings (Start file, conditions, Lang Skins, Master Pages, etc) and make sure that they all get applied</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Note: Other outputs will NOT be cleared out, but your output will be cleared out and recompiled.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>
+                        <h2>Mimic Integration</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Flares command line compile will also compile Mimic files if they are located in the Flare project</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Add a mimic movie and a mimic project to a Flare project (Non-Compiled Movie/Project)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Test Cases</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify the mimic movie is compiled in Flares command line compile</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify a SWF movie is compiled (set as Flash output in Mimic)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify movie player output is compiled (set as Movie Player in Mimic)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify Silverlight output is compiled (Set as Silverlight in mimic)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify the mimic project is compiled in Flares command line compile</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify a SWF project is compiled (set as Flash output in Mimic)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify movie player output is compiled (set as Movie Player in Mimic)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify Silverlight output is compiled (Set as Silverlight in mimic)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify if Mimic is not installed, we do NOT compile mimic movies/projects when command line compiling a Flare project</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify if Mimic is in trial mode, we DO compile mimic movies/projects when command line compiling a Flare project</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify if Mimic has expired its trial mode, we do NOT compile mimic movies/project when command line compiling a Flare project</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>
+                        <h2>Merged Projects</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Merge a project into a Flare project (Add a project to the current projects TOC.)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Run the command line compile as a batch compile (not using the –target flag)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Test Cases</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Verify in both batch and single, the merged project is compiled correctly (open the output and navigate to the merged project)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                    <td>Compare the output is the exact same as a compiled output from Flare. (Use a Diff program, or just compare size on disk)</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
