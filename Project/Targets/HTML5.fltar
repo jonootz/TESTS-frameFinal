@@ -6,7 +6,8 @@
   Destinations=""
   GlossaryTermConversion="marked"
   Skin="/Project/Skins/NewSkin1_3.flskn"
-  MasterToc="/Project/TOCs/00JOHNtoctest`~1234567890-=!@$^&amp;()_+[]{};',test.fltoc">
+  MasterToc="/Project/TOCs/00JOHNtoctest`~1234567890-=!@$^&amp;()_+[]{};',test.fltoc"
+  ConditionTagExpression="include[Default.green and not Default.blue]">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
