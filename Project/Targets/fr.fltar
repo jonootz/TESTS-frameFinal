@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="New Target"
+  Comment="New Target123456"
   Type="FrameMaker"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/00JOHNtoctest`~1234567890-=!@$^&amp;()_+[]{};',test.fltoc"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  OutputFile="outputFM22222"
+  GetLatestBeforeCompile="true"
+  OutputFolder="C:\Users\Harkins\Desktop\Misc"
   MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
-  MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
-  OutputFile="outputFM"
-  GetLatestBeforeCompile="true">
+  DisableAutoSync="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

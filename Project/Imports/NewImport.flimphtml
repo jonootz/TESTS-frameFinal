@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlImport
+  KeepSourceLinks="true"
+  SourceFolders=""
+  ImportResources="false"
+  ImportResourcesLocation="NoImport"
+  ImportTopics="content"
+  ImportLinkedHtmlFiles="false"
+  LastImport="2015-02-05T22:12:53.0707611-08:00"
+  ImportTopicsLocation="Content/"
+  AutoSync="true">
+  <Files>
+    <Url
+      Source="../../../../Users/Harkins/Desktop/New folder (2)/000simpleGitBash/Content/C_Conditions Notes Tables/NotesExamplesBlockquotes.htm"
+      AbsoluteSource="file:///C:/Users/Harkins/Desktop/New folder (2)/000simpleGitBash/Content/C_Conditions Notes Tables/NotesExamplesBlockquotes.htm" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/NotesExamplesBlockquotes.htm"
+      TimeStamp="2/5/2015 10:12:52 PM" />
+    <Url
+      Source="../TOCs/NewImport.fltoc"
+      TimeStamp="2/5/2015 10:12:52 PM" />
+  </GeneratedFiles>
+</HtmlImport>
