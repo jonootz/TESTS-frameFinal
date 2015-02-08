@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   Skin="/Project/Skins/NewSkin1_3.flskn"
-  MasterToc="/Project/TOCs/00JOHNtoctest.fltoc"
+  MasterToc="/Project/TOCs/Master.fltoc"
   ConditionTagExpression="include[Default.green and not Default.blue]">
   <PrintedOutput
     CollapseMargins="true"

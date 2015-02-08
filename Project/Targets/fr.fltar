@@ -9,7 +9,6 @@
   MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
   OutputFile="outputFM22222"
   GetLatestBeforeCompile="true"
-  OutputFolder="C:\Users\Harkins\Desktop\Misc"
   MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
   DisableAutoSync="false"
   ConditionTagExpression="include[Default.green or not Default.blue]"

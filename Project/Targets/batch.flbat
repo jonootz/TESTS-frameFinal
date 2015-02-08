@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="fr"
+      Type="FrameMaker"
+      Build="true"
+      LastBuilt="2/8/2015 3:09:32 PM"
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="fr2"
+      Type="FrameMaker"
+      Build="true"
+      LastBuilt=""
+      LastPublished="" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="HTML5"
+      Type="HTML5"
+      Build="true"
+      LastBuilt="2/8/2015 3:09:39 PM"
+      LastPublished="" />
+  </Targets>
+</CatapultBatchTarget>
