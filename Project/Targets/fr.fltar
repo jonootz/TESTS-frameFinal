@@ -12,7 +12,8 @@
   MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
   DisableAutoSync="false"
   ConditionTagExpression="include[Default.green or not Default.blue]"
-  PreserveConditionTags="true">
+  PreserveConditionTags="true"
+  OutputFolder="C:\Users\Harkins\Desktop\New folder (6)">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

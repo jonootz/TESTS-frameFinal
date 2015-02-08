@@ -8,21 +8,21 @@
       Name="fr"
       Type="FrameMaker"
       Build="true"
-      LastBuilt="2/8/2015 3:09:32 PM"
+      LastBuilt="2/8/2015 3:12:14 PM"
       LastPublished="" />
     <Target
       Icon="System.Drawing.Bitmap"
       Name="fr2"
       Type="FrameMaker"
-      Build="true"
-      LastBuilt=""
+      Build="false"
+      LastBuilt="2/8/2015 3:12:16 PM"
       LastPublished="" />
     <Target
       Icon="System.Drawing.Bitmap"
       Name="HTML5"
       Type="HTML5"
       Build="true"
-      LastBuilt="2/8/2015 3:09:39 PM"
+      LastBuilt="2/8/2015 3:12:21 PM"
       LastPublished="" />
   </Targets>
 </CatapultBatchTarget>

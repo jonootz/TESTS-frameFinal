@@ -1,4 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-    <TocEntry Title="Topic" Link="/Content/Topic.htm" />
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Topic"
+    Link="/Content/Topic.htm"></TocEntry>
+  <TocEntry
+    Title="New entry"
+    Link="../../../Zelda/Zelda.flprj"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    AbsoluteLink="file:///C:/GIT/Zelda/Zelda.flprj" />
 </CatapultToc>
